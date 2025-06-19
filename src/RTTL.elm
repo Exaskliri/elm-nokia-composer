@@ -99,6 +99,12 @@ pitchParser =
                     |. P.symbol "2"
                 , P.succeed 7
                     |. P.symbol "3"
+                , P.succeed 8
+                    |. P.symbol "4"
+                , P.succeed 9
+                    |. P.symbol "5"
+                , P.succeed 10
+                    |. P.symbol "6"
                 ]
     in
     P.succeed Pitch
